@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
-<link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
+<link href="{{ asset('css/app.css') }}" rel="stylesheet" />
 <title>@yield('title', 'Online Store')</title>
 </head>
 <body>
@@ -39,7 +39,7 @@ aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navi
 <div class="container">
 <small>
 Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank"
-href="https://twitter.com/danielgarax">
+href="www.linkedin.com/in/vitoraletto">
 Vítor A. D.
 </a> - <b>Web Developer</b>
 </small>
