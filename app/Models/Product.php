@@ -17,6 +17,22 @@ class Product extends Model
      * $this->attributes['updated_at'] - timestamp
      */
 
+
+
+    /**
+     * Forma alternativa de armazenar produtos (usando array associativo no controller)
+     * 
+     * protected $fillable = [
+     * 'name',
+     * 'description',
+     * 'price',
+     * 'image',
+     * ];
+     * 
+     * 
+     */
+
+
     public function getId()
     {
         return $this->attributes['id'];
@@ -70,22 +86,22 @@ class Product extends Model
 
     public function getCreatedAt()
     {
-        return $this->attributes["createdAt"];
+        return $this->attributes["created_at"];
     }
 
     public function setCreatedAt($created_at)
     {
-        $this->attributes['createdAt']=$created_at;
+        $this->attributes['created_at']=$created_at;
     }
 
     public function getUpdatedAt()
     {
-        return $this->attributes['updatedAt'];
+        return $this->attributes['updated_at'];
     }
 
     public function setUpdatedAt($updated_at)
     {
-        $this->attributes['updatedAt']=$updated_at;
+        $this->attributes['updated_at']=$updated_at;
     }
 
 }
