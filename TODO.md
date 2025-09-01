@@ -1,1 +1,0 @@
-[] Arrumar "asset not found" em app.blade.php
