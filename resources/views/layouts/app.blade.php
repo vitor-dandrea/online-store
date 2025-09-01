@@ -20,6 +20,7 @@ aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navi
 <div class="navbar-nav ms-auto">
 <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
 <a class="nav-link active" href="{{ route('product.index')}}">Products</a>
+<a class="nav-link active" href="{{ route('cart.index') }}">Cart</a>"
 <a class="nav-link active" href="{{ route('home.about') }}">About</a>
 <div class="vr bg-white mx-2 d-none d-lg-block"></div>
 @guest
