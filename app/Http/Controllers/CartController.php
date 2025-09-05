@@ -52,7 +52,7 @@ class CartController extends Controller
         if($productsInSession) {
             $userId = Auth::user()->getId();
             $order = new Order();
-            $order = setUserId($userId);
+            $order -> setUserId($userId);
             $order->setTotal(0);
             $order->save();
         
