@@ -69,7 +69,7 @@ class Item extends Model
 
         public function setOrderId($order_id)
         {
-            $this->attributes['order_id']-> $order_id;
+            $this->attributes['order_id'] = $order_id;
         }
 
         public function getProductId()
